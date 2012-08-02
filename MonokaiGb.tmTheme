@@ -247,7 +247,19 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#009FBF</string>
+        <string>#00A4B0</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>keyword_control_jasmine</string>
+      <key>scope</key>
+      <string>keyword.control.coffee-jasmine</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B08400</string>
       </dict>
     </dict>
 
