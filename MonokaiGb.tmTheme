@@ -14,7 +14,7 @@
         <key>caret</key>
         <string>#F8F8F0</string>
         <key>foreground</key>
-        <string>#2f89ba</string>
+        <string>#9FDDE0</string>
         <key>invisibles</key>
         <string>#3B3A32</string>
         <key>lineHighlight</key>
@@ -37,9 +37,21 @@
 
     <dict>
       <key>name</key>
-      <string>comment_line_number-sign</string>
+      <string>Punctuation</string>
       <key>scope</key>
-      <string>comment.line.number-sign</string>
+      <string>punctuation - (punctuation.definition.string || punctuation.definition.comment)</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CFB780</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>comment_line</string>
+      <key>scope</key>
+      <string>comment.line</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -235,7 +247,19 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#009FBF</string>
+        <string>#00A4B0</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>keyword_control_jasmine</string>
+      <key>scope</key>
+      <string>keyword.control.coffee-jasmine</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B08400</string>
       </dict>
     </dict>
 
@@ -438,7 +462,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FAEFCD</string>
+        <string>#AFEDC2</string>
       </dict>
     </dict>
 
@@ -711,6 +735,18 @@
       <string>text_sql_embedded</string>
       <key>scope</key>
       <string>text.sql.embedded</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FAEFCD</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>text_plain</string>
+      <key>scope</key>
+      <string>text.plain</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
